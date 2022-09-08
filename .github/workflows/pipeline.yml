@@ -16,9 +16,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: cd api
+      - run:
+          cd api
           yarn --legacy-peer-deps
-          cd ../
+          cd ..
           cd app
           yarn --legacy-peer-deps
           yarn build
