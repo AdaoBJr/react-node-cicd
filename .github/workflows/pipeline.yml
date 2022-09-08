@@ -18,8 +18,4 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: |
           cd api
-          yarn install --frozen-lockfile
-          cd ..
-          cd app
-          yarn install --frozen-lockfile
-          yarn build
+          yarn
