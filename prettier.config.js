@@ -4,5 +4,4 @@ module.exports = config = {
   tabWidth: 2,
   useTabs: false,
   bracketSpacing: true,
-  endOfLine: 'auto',
 };

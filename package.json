@@ -1,7 +1,7 @@
 {
   "name": "api-nodejs-cicd",
   "version": "0.1.0",
-  "main": "index.ts",
+  "main": "src",
   "license": "MIT",
   "scripts": {
     "build": "babel src --extensions \".js,.ts\"  --out-dir dist --copy-files --no-copy-ignored",
