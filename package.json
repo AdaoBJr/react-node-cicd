@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src --extensions \".js,.ts\"  --out-dir dist --copy-files --no-copy-ignored",
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src",
-    "start": "pm2 start --name react-node src"
+    "start": "node dist"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.7",
