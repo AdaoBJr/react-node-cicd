@@ -6,8 +6,4 @@ services:
     container_name: node_cicd
     restart: always
     ports:
-      - '${PORT}:${PORT}'
-    environment:
-      - PORT=${PORT}
-    volumes:
-      - './:/usr/app'
+      - '8080:8080'
