@@ -17,4 +17,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: |
-          yarn docker:run
+          yarn
+          yarn dev
