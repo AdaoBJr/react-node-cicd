@@ -5,5 +5,3 @@ services:
     image: server_node_cicd
     container_name: node_cicd
     restart: always
-    ports:
-      - '8080:8080'
