@@ -7,5 +7,7 @@ services:
     restart: always
     ports:
       - '${PORT}:${PORT}'
+    environment:
+      - PORT=${PORT}
     volumes:
       - './:/usr/app'
