@@ -9,4 +9,3 @@ services:
       - '${PORT}:${PORT}'
     volumes:
       - './:/usr/app'
-    command: yarn dev
