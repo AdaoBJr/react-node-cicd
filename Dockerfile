@@ -4,6 +4,6 @@ WORKDIR /usr/app
 
 COPY . ./
 
-RUN yarn && yarn build
+RUN yarn
 
-CMD ["yarn", "start"]
+CMD ["yarn", "dev"]
