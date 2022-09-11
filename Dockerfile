@@ -2,10 +2,6 @@ FROM node:16-alpine
 
 WORKDIR /usr/app
 
-COPY package.json yarn.lock ./
+COPY . ./
 
-RUN yarn
-
-COPY . .
-
-RUN yarn build
+RUN yarn && yarn build
