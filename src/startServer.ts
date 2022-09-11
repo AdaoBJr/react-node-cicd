@@ -1,4 +1,5 @@
 import 'dotenv/config';
+import './repositories/mongodb/connection';
 import express, { Response } from 'express';
 
 const { PORT } = process.env;
